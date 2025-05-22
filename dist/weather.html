@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="h-screen flex flex-col pt-10 w-full min-h-screen bg-gradient-to-br from-white to-gray-500 ">
+        <!--top section-->
+        <nav class=" flex  ml-10 justify-evenly ">
+            <div class="flex flex-col">
+                <div class="h-[35px] w-[70px] rounded-full border border-black border-b-2 bg-[#D9D9D9] ">
+                    <div class="bg-black rounded-full h-5 w-5 mt-2 ml-2"></div>
+                </div>
+                <p class="font-bold text-sm">Light Mode</p>
+            </div>
+            <div class="flex items-center bg-[#e3e3e3] border border-black rounded-full w-[803px] h-[62px] px-4 ">
+                <i class="fa-solid fa-magnifying-glass text-gray-500 text-xl mr-4"></i>
+                <input
+                    class="bg-transparent focus:outline-none text-gray-700 text-base w-full placeholder:text-gray-500"
+                    type="text" placeholder="Search for your preferred city..." />
+            </div>
+
+            <div class="flex ">
+                <button class="bg-[#4cbb17] h-[62px] w-[292px] rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-location-crosshairs text-black text-3xl mr-3"></i>
+                    <p class="text-xl text-white font-bold">Current location</p>
+                </button>
+            </div>
+        </nav>
+        <!-- nav ends -->
+        <!-- main section -->
+        <div class="flex justify-evenly">
+            <div
+                class="h-[250px] w-[400px] bg-[#D9D9D9] mt-14 shadow-[12px_12px_16px_rgba(0,0,0,0.8)] rounded-2xl flex flex-col  text-center">
+                <p class="text-3xl font-extrabold pt-10">Anthens</p>
+                <p class="text-7xl font-extrabold mt-16">09:03</p>
+                <p class="text-gray-500">Wednesday , 21 June </p>
+            </div>
+            <div
+                class="h-[250px] w-[700px] rounded-2xl mt-14 bg-[#D9D9D9] shadow-[12px_12px_16px_rgba(0,0,0,0.8)] flex ">
+                <div class="flex flex-col m-4 justify-center text-center">
+                    <h1
+                        class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-400">
+                        24°C</h1>
+                    <p class="text-gray-500">Feels like: <span class="text-2xl font-semibold ">22°C</span> </p>
+                    <div class="flex">
+                        <i class="fa-solid fa-arrow-up pr-3 pt-7"></i>
+                        <p class="font-bold pt-6">Sunrise</p>
+                    </div>
+                    <div class="flex"><img src="sunrise.png" class="h-7 w-7 " alt="">
+                        <p class="pl-2">6:37 am</p>
+                    </div>
+                    <div class="flex ">
+                        <i class="fa-solid fa-arrow-down pt-6 pr-3"></i>
+                        <p class="font-bold pt-4">Sunset</p>
+                    </div>
+                    <div class="flex "><img src="sunrise.png" class="h-7 w-7 mb-2" alt="">
+                        <p class="pl-2 mb-2">6:37 am</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="sun.png" class="h-36 mt-4" alt="">
+                    <p class="font-bold text-3xl ml-20 mt-5">Sunny</p>
+                </div>
+                <div class="flex">
+                    <div> will do it later
+                        <div class="top-view ">
+                            <i class="fa-solid fa-water text-6xl mt-5 mr-9 ml-4"></i>
+                            <h1 class="text-2xl ml-7 ">41%</h1>
+
+                            <i class="fa-solid fa-wind text-6xl ml-10"></i>
+                            
+
+
+                        </div>
+                        <div class="bottom-view"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex ">
+            <div
+                class="bg-[#D9D9D9] w-[339px] h-[329px] flex justify-evenly shadow-[12px_12px_16px_rgba(0,0,0,0.8)] rounded-2xl mt-16 ml-40 flex-col">
+                <p class="text-3xl font-extrabold mt-3 ml-8">5 Days Forecast:</p>
+                <div class="flex flex-col">
+                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                        <p class="font-bold">20°C</p>
+                        <p class="font-bold">Friday, 1 Sep</p>
+                    </div>
+                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                        <p class="font-bold">22°C</p>
+                        <p class="font-bold">Saturday, 2 Sep</p>
+                    </div>
+                    <div class="flex justify-evenly mt-4"><img src="sun.png" class="h-10 w-10 " alt="">
+                        <p class="font-bold">27°C</p>
+                        <p class="font-bold">Sunday, 3 Sep</p>
+                    </div>
+                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                        <p class="font-bold">18°C</p>
+                        <p class="font-bold">Monday, 4 Sep</p>
+                    </div>
+                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                        <p class="font-bold">19°C</p>
+                        <p class="font-bold">Tuesday, 5 Sep</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div
+                class="w-[800px] shadow-[12px_12px_16px_rgba(0,0,0,0.8)] bg-[#D9D9D9] mt-16 ml-36 rounded-2xl flex flex-col ">
+                <p class="flex justify-center mt-2 font-extrabold text-3xl mb-3">Hourly Forecast</p>
+                <div class="flex">
+                    <div
+                        class="w-[106px] h-[256px]   bg-gradient-to-t from-[#faf6d9] to-[#f88508] ml-10 rounded-3xl flex flex-col">
+                        <p class="font-bold mt-2 ml-6">12:00</p>
+                        <img src="sun.png" class="h-11 mt-4">
+                        <p class="font-bold mt-4 ml-6">26°C</p>
+                        <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
+                        <p class="font-bold ml-6">3km/hr</p>
+                    </div>
+                    <div class="flex">
+                        <div
+                            class="w-[106px] h-[256px] bg-gradient-to-t from-[#faf6d9] to-[#f88508] ml-10 rounded-3xl flex flex-col">
+                            <p class="font-bold mt-2 ml-6">15:00</p>
+                            <img src="sun.png" class="h-11 mt-4">
+                            <p class="font-bold mt-4 ml-6">27°C</p>
+                            <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
+                            <p class="font-bold ml-6">2km/hr</p>
+                        </div>
+                        <div class="flex">
+                            <div
+                                class="w-[106px] h-[256px] bg-gradient-to-t from-[#faf6d9] to-[#f88508] ml-10 rounded-3xl flex flex-col">
+                                <p class="font-bold mt-2 ml-6">18:00</p>
+                                <img src="sun.png" class="h-11 mt-4">
+                                <p class="font-bold mt-4 ml-6">27°C</p>
+                                <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
+                                <p class="font-bold ml-6">2km/hr</p>
+                            </div>
+                            <div class="flex">
+                                <div
+                                    class="w-[106px] h-[256px] bg-gradient-to-t from-[#6582C6] to-[#443D64] ml-10 rounded-3xl flex flex-col">
+                                    <p class="font-bold mt-2 ml-6">21:00</p>
+                                    <img src="sun.png" class="h-11 mt-4">
+                                    <p class="font-bold mt-4 ml-6">25°C</p>
+                                    <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
+                                    <p class="font-bold ml-6">3km/hr</p>
+                                </div>
+                                <div>
+                                    <div
+                                        class="w-[106px] h-[256px] bg-gradient-to-t from-[#6582C6] to-[#443D64] ml-10 rounded-3xl flex flex-col">
+                                        <p class="font-bold mt-2 ml-6">00:00</p>
+                                        <img src="sun.png" class="h-11 mt-4">
+                                        <p class="font-bold mt-4 ml-6">22°C</p>
+                                        <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
+                                        <p class="font-bold ml-6">3km/hr</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
