@@ -15,9 +15,9 @@
         <nav class=" flex  ml-10 justify-evenly ">
             <div class="flex flex-col">
                 <div class="h-[35px] w-[70px] rounded-full border border-black border-b-2 bg-[#D9D9D9] ">
-                    <div class="bg-black rounded-full h-5 w-5 mt-2 ml-2"></div>
+                    <div class="bg-black rounded-full h-5 w-5 mt-2 ml-2 "></div>
                 </div>
-                <p class="font-bold text-sm">Light Mode</p>
+                <p class="font-bold text-sm ">Light Mode</p>
             </div>
             <div class="flex items-center bg-[#e3e3e3] border border-black rounded-full w-[803px] h-[62px] px-4 ">
                 <i class="fa-solid fa-magnifying-glass text-gray-500 text-xl mr-4"></i>
@@ -68,18 +68,26 @@
                     <img src="sun.png" class="h-36 mt-4" alt="">
                     <p class="font-bold text-3xl ml-20 mt-5">Sunny</p>
                 </div>
-                <div class="flex">
-                    <div> will do it later
-                        <div class="top-view ">
-                            <i class="fa-solid fa-water text-6xl mt-5 mr-9 ml-4"></i>
-                            <h1 class="text-2xl ml-7 ">41%</h1>
-
-                            <i class="fa-solid fa-wind text-6xl ml-10"></i>
-                            
-
-
-                        </div>
-                        <div class="bottom-view"></div>
+                <div class="flex p-2 ml-6 mt-1">
+                    <div class=" flex-col text-center">
+                        <img class=" w-[60px] h-[50px]" src="https://cdn-icons-png.flaticon.com/128/13945/13945026.png"
+                            alt="">
+                        <p class="font-semibold text-lg">41%</p>
+                        <p class="mt-3">humidity</p>
+                        <img class=" w-[60px] h-[50px] mt-5"
+                            src="https://cdn-icons-png.flaticon.com/128/2299/2299296.png" alt="">
+                        <p class="font-semibold text-lg">978hPa</p>
+                        <p class="mb-2">Pressure</p>
+                    </div>
+                    <div class="flex-col ml-7 text-center">
+                        <img class=" w-[60px] h-[50px] ml-6"
+                            src="https://cdn-icons-png.flaticon.com/128/4113/4113122.png" alt="">
+                        <p class="font-semibold text-lg">2km/h</p>
+                        <p class="mt-3">Wind speed</p>
+                        <img class=" w-[60px] h-[50px] mt-5 ml-6"
+                            src="https://cdn-icons-png.flaticon.com/128/18651/18651159.png" alt="">
+                        <p class="font-semibold text-lg">8</p>
+                        <p class="">UV</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +97,9 @@
                 class="bg-[#D9D9D9] w-[339px] h-[329px] flex justify-evenly shadow-[12px_12px_16px_rgba(0,0,0,0.8)] rounded-2xl mt-16 ml-40 flex-col">
                 <p class="text-3xl font-extrabold mt-3 ml-8">5 Days Forecast:</p>
                 <div class="flex flex-col">
-                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                    <div class="flex justify-evenly mt-4"><img class=" h-[30px] w-[30px]"
+                            src="https://cdn-icons-png.flaticon.com/128/1146/1146869.png" alt="">
+
                         <p class="font-bold">20°C</p>
                         <p class="font-bold">Friday, 1 Sep</p>
                     </div>
@@ -97,15 +107,20 @@
                         <p class="font-bold">22°C</p>
                         <p class="font-bold">Saturday, 2 Sep</p>
                     </div>
-                    <div class="flex justify-evenly mt-4"><img src="sun.png" class="h-10 w-10 " alt="">
+                    <div class="flex justify-evenly mt-4"> <img class=" h-[50px] w-[50px]"
+                            src="https://cdn-icons-png.flaticon.com/128/1163/1163662.png" alt="">
+
                         <p class="font-bold">27°C</p>
                         <p class="font-bold">Sunday, 3 Sep</p>
                     </div>
-                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                    <div class="flex justify-evenly mt-4"> <img class=" h-[35px] w-[35px]"
+                            src="https://cdn-icons-png.flaticon.com/128/4088/4088981.png" alt="">
                         <p class="font-bold">18°C</p>
                         <p class="font-bold">Monday, 4 Sep</p>
                     </div>
-                    <div class="flex justify-evenly mt-4"><img src="1.png" class="h-10 w-10 " alt="">
+                    <div class="flex justify-evenly mt-4"> <img class=" h-[30px] w-[35px]"
+                            src="https://cdn-icons-png.flaticon.com/128/2315/2315377.png" alt="">
+
                         <p class="font-bold">19°C</p>
                         <p class="font-bold">Tuesday, 5 Sep</p>
                     </div>
@@ -139,7 +154,10 @@
                             <div
                                 class="w-[106px] h-[256px] bg-gradient-to-t from-[#faf6d9] to-[#f88508] ml-10 rounded-3xl flex flex-col">
                                 <p class="font-bold mt-2 ml-6">18:00</p>
-                                <img src="sun.png" class="h-11 mt-4">
+                                <img class=" h-[60px] w-[60px] ml-5 mt-3"
+                                    src="https://cdn-icons-png.flaticon.com/128/1146/1146808.png" alt="">
+
+
                                 <p class="font-bold mt-4 ml-6">27°C</p>
                                 <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
                                 <p class="font-bold ml-6">2km/hr</p>
@@ -148,7 +166,9 @@
                                 <div
                                     class="w-[106px] h-[256px] bg-gradient-to-t from-[#6582C6] to-[#443D64] ml-10 rounded-3xl flex flex-col">
                                     <p class="font-bold mt-2 ml-6">21:00</p>
-                                    <img src="sun.png" class="h-11 mt-4">
+                                    <img class=" h-[60px] w-[60px] ml-5 mt-3"
+                                        src="https://cdn-icons-png.flaticon.com/128/1809/1809597.png" alt="">
+
                                     <p class="font-bold mt-4 ml-6">25°C</p>
                                     <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
                                     <p class="font-bold ml-6">3km/hr</p>
@@ -157,7 +177,9 @@
                                     <div
                                         class="w-[106px] h-[256px] bg-gradient-to-t from-[#6582C6] to-[#443D64] ml-10 rounded-3xl flex flex-col">
                                         <p class="font-bold mt-2 ml-6">00:00</p>
-                                        <img src="sun.png" class="h-11 mt-4">
+                                        <img class=" h-[60px] w-[60px] ml-5 mt-3"
+                                            src="https://cdn-icons-png.flaticon.com/128/3751/3751205.png" alt="">
+
                                         <p class="font-bold mt-4 ml-6">22°C</p>
                                         <i class="fas fa-location-arrow text-blue-400 text-5xl ml-6 mt-4"></i>
                                         <p class="font-bold ml-6">3km/hr</p>
